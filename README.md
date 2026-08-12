@@ -7,8 +7,16 @@
 > 使用 stow 進行安裝，請先確認系統擁有 stow 工具。
 
 ```bash
+git clone https://github.com/tantuyu/dotfiles.git
+cd dotfiles
+```
+
+依自己需求套用配置：
+
+```bash
 stow -v -t ~ fish
 stow -v -t ~ ghostty
+stow -v -t ~ <other_directory>
 ```
 
 ## 當前目錄

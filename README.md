@@ -16,6 +16,7 @@ cd dotfiles
 ```bash
 stow -v -t ~ fish
 stow -v -t ~ ghostty
+stow -v -t ~ starship
 stow -v -t ~ <other_directory>
 ```
 
@@ -24,5 +25,6 @@ stow -v -t ~ <other_directory>
 ```
 .
 ├── fish
-└── ghostty
+├── ghostty
+└── starship
 ```

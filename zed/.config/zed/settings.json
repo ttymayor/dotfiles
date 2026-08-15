@@ -1,0 +1,69 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "format_on_save": "on",
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "current_line_highlight": "all",
+  "colorize_brackets": true,
+  "terminal": {
+    "font_family": "JetBrains Mono",
+  },
+  "cli_default_open_behavior": "existing_window",
+  "autosave": "on_focus_change",
+  "proxy": "",
+  "debugger": {
+    "button": false,
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "tool_permissions": {
+      "tools": {
+        "terminal": {
+          "always_allow": [
+            {
+              "pattern": "cat",
+            },
+          ],
+        },
+      },
+    },
+    "default_model": {
+      "provider": "openai-subscribed",
+      "model": "gpt-5.6-sol",
+      "enable_thinking": true,
+      "effort": "high",
+    },
+    "sidebar_side": "left",
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "buffer_font_family": "JetBrains Mono",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}

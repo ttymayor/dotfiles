@@ -13,18 +13,22 @@ cd dotfiles
 
 依自己需求套用配置：
 
-```bash
 stow -v -t ~ fish
 stow -v -t ~ ghostty
 stow -v -t ~ starship
-stow -v -t ~ <other_directory>
+stow -v -t ~ zed
+stow -v -t ~ git
+stow -v -t ~ nvim
+stow -v -t ~ fcitx5
 ```
 
 ## 當前目錄
 
-```
 .
+├── fcitx5
 ├── fish
 ├── ghostty
-└── starship
-```
+├── git
+├── nvim
+├── starship
+└── zed

@@ -21,18 +21,18 @@ if status is-interactive
     end
 
     # claude code
-    if not contains -- /home/tantuyu/.local/bin $PATH
-        fish_add_path /home/tantuyu/.local/bin
+    if not contains -- $HOME/.local/bin $PATH
+        fish_add_path $HOME/.local/bin
     end
 
     # opencode
-    if not contains -- /home/tantuyu/.opencode/bin $PATH
-        fish_add_path /home/tantuyu/.opencode/bin
+    if not contains -- $HOME/.opencode/bin $PATH
+        fish_add_path $HOME/.opencode/bin
     end
 end
 
 # pnpm
-set -gx PNPM_HOME "/home/tantuyu/.local/share/pnpm"
+set -gx PNPM_HOME "$HOME/.local/share/pnpm"
 if not contains -- $PNPM_HOME/bin $PATH
     fish_add_path $PNPM_HOME/bin
 end

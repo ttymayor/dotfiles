@@ -1,0 +1,21 @@
+[user]
+	name = tantuyu
+	email = 92105176+ttymayor@users.noreply.github.com
+	signingkey = 3C3B3CEEBB05C0A6
+[commit]
+	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[init]
+	defaultBranch = main
+[gpg]
+	format = openpgp
